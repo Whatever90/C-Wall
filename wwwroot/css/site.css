@@ -1,0 +1,11 @@
+/*Write all of your CSS here*/
+.quote{
+    border-bottom: 1px solid black;
+    width: 400px;
+}
+.name{
+    margin-left: 100px;
+}
+.divq{
+    display: inline;
+}

@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<script>
+        $(document).ready(function(callback){
+           document.getElementById("skip").onclick = function () {
+                    location.href = "/quotes";};
+            
+            
+        });
+        </script>
+<h1>DATABASE</h1>
+<p>TESTING</p>
+<form action="/create" method="post">
+    <p>Enter your name: <input type="text" name="name"></p>
+    <p>Enter your quote: <input type="text" name="quote"></p>
+    <input type="submit" value="Add a quote">
+    <input type="button" id="skip" value="Skip to quotes">
+    
+</form>
+
