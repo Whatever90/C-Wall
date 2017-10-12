@@ -1,11 +1,16 @@
 /*Write all of your CSS here*/
-.quote{
+.message{
     border-bottom: 1px solid black;
     width: 400px;
+    background: azure;
 }
 .name{
     margin-left: 100px;
 }
 .divq{
     display: inline;
+}
+div{
+    background: azure;
+    border: 1px solid black;
 }
